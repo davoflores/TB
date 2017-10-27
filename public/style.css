@@ -1,0 +1,234 @@
+html{
+  background-color: #e5e5e5;
+}
+
+.contenido{
+  width: 80%;
+  margin: 0px auto;
+}
+
+header{
+  min-width: 425px;
+}
+
+header h1{
+  font-size: 19px;
+  color: #9616161;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+header h1 span{
+  color: #9a9d9f;
+}
+
+footer a{
+  color: #919191;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nextPage {
+  background-image:url('./img/nextPage.PNG');
+  background-repeat: no-repeat; 
+  background-position: right;
+  height:15px;
+  margin:0;
+  padding: 0px 20px 0px 0px;
+}
+
+.prevPage {
+  background-image:url('./img/prevPage.PNG');
+  background-repeat: no-repeat; 
+  background-position: left;
+  height:15px;
+  margin:0;
+  padding: 0px 0px 0px 20px;
+}
+
+
+.paginacion{
+	float: right;
+}
+
+.div-buscar input{
+  border: none;
+  font-size: 12px;
+  color: #d8d6d6;
+
+  background-image:url('./img/buscar.PNG');
+  background-repeat: no-repeat; 
+  background-position: left;
+  height:31px;
+  width: 100%;
+  margin:0;
+  padding: 0px 0px 0px 33px;
+}
+
+.btnNuevoContacto{
+  background-image:url('./img/btnNuevoContacto.PNG');
+  border: 0;
+  width: 163;
+  height: 33px;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-width: 425px;
+}
+
+.div-buscar {
+	float: left;
+  min-width: 150px;
+  width: 40%;
+}
+
+.div-agregar {
+	float: right;
+}
+
+main{
+  padding: 60px 0px 0px 0px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999
+}
+
+.modal {
+  min-width: 300px;
+  width: 35%;
+  max-height: calc(100% - 150px);
+  position: relative;
+  min-height: 300px;
+  margin: 5% auto 0;
+  background-color: #f9f9f9;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.modal .header{
+  width: 100%;
+  height: 50px;
+  color: #676a6c;
+  font-weight: bold;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  border-style: solid;
+  padding: 30px 0px 0px 20px;
+  margin: 0;
+  background-color: white;
+}
+
+.modal label{
+  color: #676a6c;
+  font-size: 13px;
+}
+
+.modal form{
+  padding-top: 30px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.modal form input{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+
+}
+
+.modal form button{
+  background-image:url('./img/btnGuardar.PNG');
+  width: 163px;
+  height: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttonHolder{
+  text-align: center;
+  padding: 0;
+}
+
+.contacttable {
+  background-color: white;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+.contacttable th {
+  text-align: left;
+  color: #676a6c;
+  font-size: 14px;
+  height: 40px;
+  padding: 0px 0px 0px 20px;
+}
+
+.td-nombre{
+  min-width: 270px;
+  padding: 15px 0px 15px 20px;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  border-style: solid;
+  margin: 0;
+}
+
+.td-nombre img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.td-nombre span{
+  color: #676a6c;
+  margin-left: 10px;
+ }
+
+ .td-nombre span div{
+  display: inline;
+ }
+
+.td-nombre a{
+  color: #fab43d;
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.td-description{
+  padding: 15px 0px 15px 20px;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  border-style: solid;
+  margin: 0;
+  color: #757879;
+}
+
+.alerta{
+  font-size: 18px;
+  color: #fab43d;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.requerido{
+  color: #ff6200;
+}
